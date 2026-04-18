@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_RAW="https://raw.githubusercontent.com/lozymon/vscode-settings/main"
 VSCODE_USER_DIR="$HOME/.config/Code/User"
 
 echo "==> Installing Cascadia Code font..."
@@ -18,11 +18,8 @@ echo "    Done."
 
 echo "==> Copying VSCode settings..."
 mkdir -p "$VSCODE_USER_DIR/snippets"
-cp "$SCRIPT_DIR/settings.json" "$VSCODE_USER_DIR/settings.json"
-cp "$SCRIPT_DIR/keybindings.json" "$VSCODE_USER_DIR/keybindings.json"
-if [ -d "$SCRIPT_DIR/snippets" ]; then
-  cp "$SCRIPT_DIR/snippets/"* "$VSCODE_USER_DIR/snippets/" 2>/dev/null || true
-fi
+curl -sL "$REPO_RAW/settings.json" -o "$VSCODE_USER_DIR/settings.json"
+curl -sL "$REPO_RAW/keybindings.json" -o "$VSCODE_USER_DIR/keybindings.json"
 echo "    Done."
 
 echo "==> Installing extensions..."
