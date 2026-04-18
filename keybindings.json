@@ -1,0 +1,10 @@
+[
+  {
+    "key": "alt+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "alt+d",
+    "command": "extension.js-debug.createDebuggerTerminal"
+  }
+]

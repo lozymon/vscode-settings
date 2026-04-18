@@ -1,0 +1,90 @@
+{
+  // --- Editor ---
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 25,
+  "editor.letterSpacing": 1,
+  "editor.tabSize": 2,
+  "editor.wordWrapColumn": 180,
+  "editor.rulers": [120],
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabCompletion": "on",
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggestSelection": "first",
+  "editor.occurrencesHighlight": "off",
+  "editor.selectionHighlight": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+
+  // --- Workbench ---
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.editor.empty.hint": "hidden",
+
+  // --- Window ---
+  "window.titleBarStyle": "custom",
+
+  // --- Terminal ---
+  "terminal.integrated.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  "terminal.integrated.lineHeight": 1.5,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+
+  // --- Files ---
+  "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.turbo": true,
+    "**/.next": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/.next/**": true
+  },
+
+  // --- Prettier ---
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.useEditorConfig": true,
+
+  // --- ESLint ---
+  "eslint.validate": ["typescript", "typescriptreact"],
+
+  // --- TypeScript / JavaScript ---
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.referencesCodeLens.showOnAllFunctions": true,
+
+  // --- Git ---
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.ignoreMissingGitWarning": true,
+  "git.suggestSmartCommit": false,
+  "git.openRepositoryInParentFolders": "always",
+  "git.blame.statusBarItem.enabled": false,
+
+  // --- Misc ---
+  "debug.openDebug": "openOnDebugBreak",
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "extensions.ignoreRecommendations": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDelete": false,
+  "claudeCode.preferredLocation": "panel"
+}

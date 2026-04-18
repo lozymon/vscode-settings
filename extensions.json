@@ -1,0 +1,21 @@
+{
+  "recommendations": [
+    "anthropic.claude-code",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "aaron-bond.better-comments",
+    "waderyan.gitblame",
+    "bierner.markdown-mermaid",
+    "zhuangtongfa.onedarkpro",
+    "humao.rest-client",
+    "vscode-icons-team.vscode-icons",
+    "christian-kohler.npm-intellisense",
+    "github.vscode-github-actions",
+    "ms-vscode-remote.remote-containers",
+    "usernamehw.errorlens",
+    "yoavbls.pretty-ts-errors",
+    "gruntfuggly.todo-tree",
+    "prisma.prisma",
+    "mongodb.mongodb-vscode"
+  ]
+}
