@@ -13,7 +13,7 @@ My personal VSCode configuration for Linux.
 ## Install
 
 ```bash
-git clone <repo-url> ~/code/vscode-settings
+git clone git@github.com:lozymon/vscode-settings.git ~/code/vscode-settings
 cd ~/code/vscode-settings
 chmod +x install.sh
 ./install.sh
