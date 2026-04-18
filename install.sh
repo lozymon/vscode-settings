@@ -31,7 +31,7 @@ extensions=(
   "aaron-bond.better-comments"
   "waderyan.gitblame"
   "bierner.markdown-mermaid"
-  "zhuangtongfa.onedarkpro"
+  "zhuangtongfa.material-theme"
   "humao.rest-client"
   "vscode-icons-team.vscode-icons"
   "christian-kohler.npm-intellisense"

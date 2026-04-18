@@ -35,7 +35,7 @@ Restart VSCode after running.
 | Better Comments          | `aaron-bond.better-comments`         |
 | Git Blame                | `waderyan.gitblame`                  |
 | Markdown Preview Mermaid | `bierner.markdown-mermaid`           |
-| One Dark Pro             | `zhuangtongfa.onedarkpro`            |
+| One Dark Pro             | `zhuangtongfa.material-theme`            |
 | REST Client              | `humao.rest-client`                  |
 | VSCode Icons             | `vscode-icons-team.vscode-icons`     |
 | npm Intellisense         | `christian-kohler.npm-intellisense`  |
